@@ -14,5 +14,4 @@ class Client
         echo $this->productB->usefulFunctionB() . "<br/>\n";
         echo $this->productB->anotherUsefulFunctionB($this->productA) . "<br/>\n";
     }
-
 }

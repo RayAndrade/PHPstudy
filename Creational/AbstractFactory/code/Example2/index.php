@@ -3,7 +3,6 @@
 require_once 'ConcreteFactory1.php';
 require_once 'ConcreteFactory2.php';
 require_once 'Client.php';
-
 function main() {
     echo "Testing with ConcreteFactory1:<br/>\n";
     $factory1 = new ConcreteFactory1();

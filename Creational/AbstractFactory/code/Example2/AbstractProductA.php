@@ -2,5 +2,5 @@
 
 interface AbstractProductA
 {
-    public function usefulFunctionA();
+    public function usefulFunctionA(): string;
 }

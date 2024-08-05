@@ -1,5 +1,4 @@
 <?php
-
 require_once 'AbstractProductB.php';
 require_once 'AbstractProductA.php';
 class ProductB2 implements AbstractProductB
