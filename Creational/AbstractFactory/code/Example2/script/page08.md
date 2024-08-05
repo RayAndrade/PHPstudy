@@ -1,4 +1,4 @@
-[home](./page01.md) | [back](./page08.md) 
+[home](./page01.md) | [back](./page07.md) 
 
 **page 8**
 
