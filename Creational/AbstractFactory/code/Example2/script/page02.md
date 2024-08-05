@@ -1,16 +1,13 @@
 [home](./page01.md)
 
-# Step 1: create *Interface* **x**
+# Step 1: create *Interface* **AbstractProductA**
 
-Create 
-# interface
 ```
-FileComponent
+AbstractProductA
 ```
-with the following requirements:
+with the following requirement:
 ```
-public function getSize();
-public function getName();
+public function usefulFunctionA(): string;
 ```
 
 
