@@ -1,19 +1,21 @@
-```
 <?php
 
 // Step 1: Define the Product Interface (Product.php)
+// This interface ensures all products have a common method `operation()`
 interface Product {
     public function operation(): string;
 }
 
-// Step 2: Implement the Concrete Product (ConcreteProduct.php)
+// Implementation of the Concrete Product
+// This class implements the Product interface and defines the `operation` method
 class ConcreteProduct implements Product {
     public function operation(): string {
         return "ConcreteProduct: Operation executed.";
     }
 }
 
-// Step 3: Define the Creator Interface (Creator.php)
+// Step 2: Define the Creator Interface (Creator.php)
+// The Creator class declares the factory method and provides a default operation
 abstract class Creator {
     // Factory Method: Must be implemented by subclasses
     abstract public function factoryMethod(): Product;
@@ -25,14 +27,16 @@ abstract class Creator {
     }
 }
 
-// Step 4: Implement the Concrete Creator (ConcreteCreator.php)
+// Step 3: Implement the Concrete Creator (ConcreteCreator.php)
+// This subclass implements the factory method to return ConcreteProduct instances
 class ConcreteCreator extends Creator {
     public function factoryMethod(): Product {
         return new ConcreteProduct(); // Returns an instance of ConcreteProduct
     }
 }
 
-// Step 5: Implement the Client (Client.php)
+// Step 4: Implement the Client (Client.php)
+// The client code uses the factory method to get an object and execute its logic
 class Client {
     public static function main() {
         $creator = new ConcreteCreator(); // Instantiates the concrete factory
@@ -40,41 +44,9 @@ class Client {
     }
 }
 
-// Run the Client
+// Step 5: Demo Execution in index.php
+// Running the main function of the Client to demonstrate the Factory pattern
+require_once 'Client.php';
 Client::main();
 
 ?>
-```
-
-## **Order of Class Creation**
-To avoid dependency issues, we should create classes in this order:
-
-1. **Product Interface (`Product.php`)** – This defines the contract for all concrete products.
-2. **Concrete Product (`ConcreteProduct.php`)** – A class implementing the `Product` interface.
-3. **Creator Interface (`Creator.php`)** – Defines the factory method.
-4. **Concrete Creator (`ConcreteCreator.php`)** – Implements the factory method to return `ConcreteProduct` objects.
-5. **Client (`Client.php`)** – Uses the factory to instantiate products.
-
----
-
-Now, let's generate the PHP code with each class in a separate file.
-
-### **Explanation of Classes and Methods**
-
-1. **`Product` Interface (`Product.php`)**  
-   - Defines a method `operation()` that must be implemented by concrete products.
-
-2. **`ConcreteProduct` (`ConcreteProduct.php`)**  
-   - Implements `Product` and provides a concrete `operation()` method.
-
-3. **`Creator` Abstract Class (`Creator.php`)**  
-   - Declares the abstract `factoryMethod()` that must be implemented by subclasses.
-   - Defines `someOperation()`, which calls the `factoryMethod()` and uses the created product.
-
-4. **`ConcreteCreator` (`ConcreteCreator.php`)**  
-   - Implements `factoryMethod()` to return an instance of `ConcreteProduct`.
-
-5. **`Client` (`Client.php`)**  
-   - Instantiates `ConcreteCreator` and calls `someOperation()`.
-
-This follows the Factory Method pattern from the **Gang of Four** while ensuring no dependency errors.
