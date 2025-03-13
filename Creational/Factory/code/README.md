@@ -1,6 +1,49 @@
-Got it! You're looking for a **PHP** implementation of the **Factory** pattern, which is a **Creational** design pattern, following the exact naming conventions from the Gang of Four’s book.
+<?php
 
----
+// Step 1: Define the Product Interface (Product.php)
+interface Product {
+    public function operation(): string;
+}
+
+// Step 2: Implement the Concrete Product (ConcreteProduct.php)
+class ConcreteProduct implements Product {
+    public function operation(): string {
+        return "ConcreteProduct: Operation executed.";
+    }
+}
+
+// Step 3: Define the Creator Interface (Creator.php)
+abstract class Creator {
+    // Factory Method: Must be implemented by subclasses
+    abstract public function factoryMethod(): Product;
+
+    // A common operation that uses the product
+    public function someOperation(): string {
+        $product = $this->factoryMethod(); // Factory Method creates an object
+        return "Creator: " . $product->operation();
+    }
+}
+
+// Step 4: Implement the Concrete Creator (ConcreteCreator.php)
+class ConcreteCreator extends Creator {
+    public function factoryMethod(): Product {
+        return new ConcreteProduct(); // Returns an instance of ConcreteProduct
+    }
+}
+
+// Step 5: Implement the Client (Client.php)
+class Client {
+    public static function main() {
+        $creator = new ConcreteCreator(); // Instantiates the concrete factory
+        echo $creator->someOperation(); // Uses the factory method
+    }
+}
+
+// Run the Client
+Client::main();
+
+?>
+
 
 ## **Order of Class Creation**
 To avoid dependency issues, we should create classes in this order:
