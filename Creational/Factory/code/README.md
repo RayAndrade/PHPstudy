@@ -1,3 +1,4 @@
+```
 <?php
 
 // Step 1: Define the Product Interface (Product.php)
@@ -43,7 +44,7 @@ class Client {
 Client::main();
 
 ?>
-
+```
 
 ## **Order of Class Creation**
 To avoid dependency issues, we should create classes in this order:
