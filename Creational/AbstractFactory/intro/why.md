@@ -1,6 +1,5 @@
 Here are some reasons why studying the Abstract Factory design pattern can be beneficial for a PHP developer:
 
-
 I need 7 reasons why a PHP programmer would need to learn and study the Abstract Factory design pattern. Each reason should be between 13 to 15 words  in length with a  2 to 3 word title
 
 Here are 7 reasons for a PHP programmer to learn the Abstract Factory design pattern:
