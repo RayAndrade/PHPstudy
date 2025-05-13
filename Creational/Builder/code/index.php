@@ -1,3 +1,12 @@
 <?php
+require_once 'ConcreteBuilder.php';
+require_once 'Director.php';
 
-echo "TheRayCode us AWESOME!!!";
+$builder = new ConcreteBuilder();
+$director = new Director($builder);
+
+$director->construct();
+
+$product = $builder->getResult();
+
+$product->show();
