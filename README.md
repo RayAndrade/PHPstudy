@@ -1,3 +1,5 @@
+hello
+
 ### **Outline for Behavioral Patterns in PHP**
 
 Behavioral design patterns focus on the interaction and communication between objects, ensuring flexibility and scalability while minimizing tight coupling. PHP’s dynamic typing, object-oriented features, runtime flexibility, and support for closures make it a powerful language for implementing behavioral patterns.
