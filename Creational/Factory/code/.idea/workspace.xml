@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b12202a1-ab7d-4e4e-84e7-82cc3f747b43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ConcretePrototype1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConcretePrototype2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Prototype.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00012.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00018.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00022.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00025.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00026.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00027.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00028.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00029.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00030.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00031.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/s_00032.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AbstractFactory/code/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AbstractFactory/code/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-    </list>
+    <list default="true" id="b12202a1-ab7d-4e4e-84e7-82cc3f747b43" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +15,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="2zZaYAOOHhGFY9OjRSOsjz8sqTi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -68,6 +27,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
@@ -95,6 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1751941093945</updated>
       <workItem from="1751941095202" duration="130000" />
+      <workItem from="1751941691327" duration="700000" />
     </task>
     <servers />
   </component>
@@ -110,22 +76,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="211" y="208" key="#index.php/0.0.1920.1040@0.0.1920.1040" timestamp="1751941165913" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1751941766608">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1751944088794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1751941766608" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1751941766607">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1751944088794" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1751944088794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1751941766607" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1751941766607">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1751944088793" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1751944088793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1751941766607" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1751941766607">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1751944088793" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1751944088794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1751941766607" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1751944088794" />
     <state x="184" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1751941697129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
