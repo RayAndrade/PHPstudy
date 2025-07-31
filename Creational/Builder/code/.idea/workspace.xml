@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d7063b6-a860-4239-8106-fa9a690f6a64" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AbstractFactory/code/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../AbstractFactory/code/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +75,7 @@
       <workItem from="1747182265504" duration="46000" />
       <workItem from="1751944147132" duration="91000" />
       <workItem from="1751992119015" duration="671000" />
+      <workItem from="1753902070285" duration="77000" />
     </task>
     <servers />
   </component>
@@ -82,26 +83,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="147" width="1092" height="783" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1753902107106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="147" width="1092" height="783" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1753902107106" />
     <state x="691" y="208" key="#index.php" timestamp="1751944205489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="691" y="208" key="#index.php/0.0.1920.1040@0.0.1920.1040" timestamp="1751944205489" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1751993888497">
+    <state width="1853" height="253" key="GridCell.Tab.0.bottom" timestamp="1753902147478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1751993888497" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1751993888497">
+    <state width="1853" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1753902147478" />
+    <state width="1853" height="253" key="GridCell.Tab.0.center" timestamp="1753902147462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1751993888497" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1751993888497">
+    <state width="1853" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1753902147462" />
+    <state width="1853" height="253" key="GridCell.Tab.0.left" timestamp="1753902147462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1751993888497" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1751993888497">
+    <state width="1853" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1753902147462" />
+    <state width="1853" height="253" key="GridCell.Tab.0.right" timestamp="1753902147462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1751993888497" />
+    <state width="1853" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1753902147462" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1751993881570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
